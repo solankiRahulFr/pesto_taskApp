@@ -10,6 +10,8 @@ A simple task management app where you can add tasks under three statuses: "to d
 
 # App is hosted on render for verification.(it may take some time to open)
 
+### Want to test without creating a user use (email: testuser3@tasker.com, password: 333333) on login form.
+
 https://pesto-taskapp.onrender.com/
 
 ## Feature
