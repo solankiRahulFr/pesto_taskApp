@@ -8,38 +8,43 @@ A simple task management app where you can add tasks under three statuses: "to d
 
 ![image](https://github.com/solankiRahulFr/pesto_taskApp/assets/99829859/94a2c3bc-768a-48cd-9a38-a4aa0a8e0474)
 
+# App is hosted on render for verification.(it may take some time to open)
+
+https://pesto-taskapp.onrender.com/
 
 ## Feature
 
-* Registering and Login.
+* Registering and Login.(token is saved in cookies and user details are saved in localstorage after login)
 * Organize tasks under three statuses: "to do", "in progress", and "done".
 * Set priority tags for tasks: high, medium, low.
 * Specify due dates and reminders (backend functionality not implemented) for tasks.
 * Update and delete tasks.
-* Filter and sort the tasks according to priority and Due date.
+* Filter and sort the tasks according to priority and Due date. (Implementing debounce for the filter search for every 3ms)
 * toggle the theme to dark/light.  
 
 ## Tech
 
 **Sevlte, Node(express) and MongoDB**
 
-## Setup
+## Setup local
 
 1. Clone the repository:
    `
    git clone https://github.com/solankiRahulFr/pesto_taskApp.git
    `
    
-3. Install dependencies:
+3. Environmental variables need to create a mongobd account past the mongoDB atlas API key as MONGODB_URI and the app encryption secret key is SECRET = "pesto_taskapp". You can check the front end differently but I have build the UI and serving from the backend. change dir and install dependencies
    `
+    cd pest_task_backend
     npm install
    `
-
+   
 4. Start the server
+   `
+   npm run dev
+   `
 
-    `
-    npm run dev
-    `
+
 
 ## Usage
 
@@ -50,7 +55,7 @@ A simple task management app where you can add tasks under three statuses: "to d
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, improvements, or feature requests, feel free to open an issue or create a pull request.
+If you have any suggestions, improvements, or feature requests, feel free to open an issue or create a pull request.
 
 License
 This project is licensed under the MIT License.
