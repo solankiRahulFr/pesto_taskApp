@@ -1,4 +1,4 @@
-// Authoerization component rendering register user and login page 
+
 <script>
   import Register from "./Register.svelte";
   import Login from "./Login.svelte";
