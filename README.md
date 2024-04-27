@@ -1,6 +1,6 @@
 # Tasker
 
-A simple task management app where you can add tasks under three statuses: "to do", "in progress", and "done". Users can also assign priority tags (high, medium, low) to tasks and set due dates and reminders.
+A simple task management app where you can add tasks under three statuses: "to do", "in progress", and "done". Users can also assign priority tags (high, medium, low) to tasks and set due dates and reminders. User is able to filter the task as well.
 
 ![image](https://github.com/solankiRahulFr/pesto_taskApp/assets/99829859/59a8c6b6-c090-4d96-88bc-118006e1696e)
 
@@ -16,6 +16,8 @@ A simple task management app where you can add tasks under three statuses: "to d
 * Set priority tags for tasks: high, medium, low.
 * Specify due dates and reminders (backend functionality not implemented) for tasks.
 * Update and delete tasks.
+* Filter and sort the tasks according to priority and Due date.
+* toggle the theme to dark/light.  
 
 ## Tech
 
