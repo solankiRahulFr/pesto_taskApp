@@ -119,7 +119,7 @@
 </script>
 
 <button
-  class="btn w-full p-2 h-fit"
+  class="btn w-full p-2 h-fit mb-2 md:mb-0"
   on:click={() => {
     isModalOpen = true;
   }}
