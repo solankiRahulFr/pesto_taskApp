@@ -23,6 +23,7 @@
     "js-cookie": "^3.0.5",
     "lodash": "^4.17.21",
     "lodash-es": "^4.17.21",
+    "svelte-dnd-action": "^0.9.43",
     "yup": "^1.4.0"
   }
 }
