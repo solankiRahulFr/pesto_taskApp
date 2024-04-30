@@ -35,7 +35,7 @@ https://pesto-taskapp.onrender.com/
    git clone https://github.com/solankiRahulFr/pesto_taskApp.git
    `
    
-3. Environmental variables need to create a mongobd account past the mongoDB atlas API key as MONGODB_URI and the app encryption secret key is SECRET = "pesto_taskapp". You can check the front end differently but I have build the UI and serving from the backend. change dir and install dependencies
+3. Install dependencies
    `
     cd pest_task_backend
     npm install
