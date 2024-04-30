@@ -37,7 +37,7 @@ https://pesto-taskapp.onrender.com/
    
 3. Install dependencies
    `
-    cd pest_task_backend
+    cd pesto_task_frontend
     npm install
    `
    
